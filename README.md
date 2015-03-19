@@ -1,5 +1,5 @@
 #### Seat Reservation System Using AngularJS
-A simple seat reservation system which uses the awesome JS framework, AngularJS!
+A simplest seat reservation system which uses AngularJS, the awesome JS framework!
 
 ##### Run:
 
