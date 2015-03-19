@@ -1,0 +1,31 @@
+<div class="content">
+    <h2>Seat Reservation System using AngularJS</h2>
+
+    <p>Screen this way! :)</p>
+
+    <table class="seatLayout">
+        <tr>
+            <td class="padding-bottom"></td>
+            <td class="padding-bottom" ng-repeat="col in cols track by $index" ng-bind="col"></td>
+        </tr>
+        <tr ng-repeat="row in rows">
+            <td class="padding-right" ng-bind="row"></td>
+            <td class="seat" ng-repeat="col in cols" ng-click="seatClicked(row + col)" ng-switch on="getStatus(row + col)">
+                <img ng-switch-when="selected" src="images/seat_selected.png">
+                <img ng-switch-when="reserved" src="images/seat_reserved.png">
+                <img ng-switch-default src="images/seat_available.png">
+            </td>
+        </tr>
+    </table>
+
+    <div class="legend">
+        <img src="images/seat_available.png">  Available
+        <img src="images/seat_reserved.png" class="padding-left">  Reserved
+        <img src="images/seat_selected.png" class="padding-left">  Selected
+    </div>
+
+    <div class="buttons">
+        <button ng-click="clearSelected()">Clear</button>
+        <button ng-click="showSelected()">Show selected seats!</button>
+    </div>
+</div>

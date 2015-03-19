@@ -1,0 +1,55 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+/* Custom page footer */
+.footer {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+/* seat reservation */
+.content {
+  text-align: center;
+}
+
+.seatLayout {
+  margin: 30px auto;
+}
+
+.seat {
+  cursor: pointer;
+}
+
+.buttons {
+  margin: 30px auto;
+}
+
+.legend img{
+  vertical-align: bottom;
+}
