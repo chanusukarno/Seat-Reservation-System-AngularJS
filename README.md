@@ -1,17 +1,22 @@
-# Seat-Reservation-System-AngularJS
-A simple seat reservation system which uses the awesome JS framework, AngularJS!
+#### Seat Reservation System Using AngularJS
+A simplest seat reservation system which uses AngularJS, the awesome JS framework!
 
-### Run:
+##### Run:
 
-#### Note: This is yeoman project and it required node to run
+####### Note: This is a Yeoman project and it requires Node to run
 
+```
 npm install
 bower install
+```
 
+```
 grunt serve
+```
 
-### Build:
+##### Build:
 
 
-grunt serve
-
+```
+grunt build
+```
